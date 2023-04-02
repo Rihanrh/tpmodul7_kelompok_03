@@ -10,7 +10,7 @@ public class DataMahasiswa_1302213043
 
         Console.Write("nama " + mahasiswa.nama.depan + " " + mahasiswa.nama.belakang);
         Console.Write(" dengan nim " + mahasiswa.nim);
-        Console.Write(" dari fakultas " + mahasiswa.fakultas);
+        Console.WriteLine(" dari fakultas " + mahasiswa.fakultas);
 
     }
 }
