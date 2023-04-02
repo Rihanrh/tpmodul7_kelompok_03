@@ -41,7 +41,7 @@ namespace tpmodul7_kelompok_03
             int i = 1;
             foreach (Course courses in course.courses)
             {
-                Console.WriteLine("MK " + i + courses.code + " - " + courses.code);
+                Console.WriteLine("MK " + i + courses.code + " - " + courses.name);
                 i++;
             }
         }
