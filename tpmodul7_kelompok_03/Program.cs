@@ -1,5 +1,4 @@
 
-
 using tpmodul7_kelompok_03;
 
 class Program
@@ -12,11 +11,15 @@ class Program
         
         KuliahMahasiswa1302210028 kmRihan = new KuliahMahasiswa1302210028();
         kmRihan.ReadJSON();
-
         Console.WriteLine("");
+        
         //Liyan
         DataMahasiswa_1302213037 mhsL = new DataMahasiswa_1302213037();
         mhsL.ReadJSON();
+        
+        KuliahMahasiswa1302213037 ListMatakuliah = new KuliahMahasiswa1302213037();
+        ListMatakuliah.ReadJSON();
+        Console.WriteLine("");
+        
     }
 }
-
