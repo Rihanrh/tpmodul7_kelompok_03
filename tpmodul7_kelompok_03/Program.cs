@@ -2,11 +2,15 @@
 
 using tpmodul7_kelompok_03;
 
-class Prgoram
+class Program
 {
     public static void Main(string[] args)
     {
-        DataMahasiswa1302210028 dmhs = new DataMahasiswa1302210028();
-        dmhs.ReadJSON();
+        //Rihan
+        DataMahasiswa1302210028 dmRihan = new DataMahasiswa1302210028();
+        dmRihan.ReadJSON();
+        
+        KuliahMahasiswa1302210028 kmRihan = new KuliahMahasiswa1302210028();
+        kmRihan.ReadJSON();
     }
 }
