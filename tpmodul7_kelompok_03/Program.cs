@@ -12,5 +12,7 @@ class Program
         
         KuliahMahasiswa1302210028 kmRihan = new KuliahMahasiswa1302210028();
         kmRihan.ReadJSON();
+
+        Console.WriteLine("");
     }
 }
