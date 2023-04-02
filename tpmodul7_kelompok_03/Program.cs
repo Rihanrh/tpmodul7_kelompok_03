@@ -5,7 +5,7 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        DataMahasiswa1302210033 data1 = new DataMahasiswa1302210033();
-        data1.ReadJSON();
+        KuliahMahasiswa1302210033 kuliah = new KuliahMahasiswa1302210033();
+        kuliah.ReadJSON();
     }
 }
