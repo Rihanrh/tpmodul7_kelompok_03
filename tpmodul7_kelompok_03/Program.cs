@@ -1,17 +1,5 @@
-jaatsiyah
+
 ﻿// See https://aka.ms/new-console-template for more information
-public class Program
-{
-    private static void Main(string[] args)
-    {
-        DataMahasiswa_1302213043 dataMahasiswa = new DataMahasiswa_1302213043();
-        dataMahasiswa.ReadJSON();
-
-        KuliahMahasiswa_1302213043 mataKuliah = new KuliahMahasiswa_1302213043();
-        mataKuliah.ReadJSON();
-    }
-}
-
 
 using tpmodul7_kelompok_03;
 
@@ -35,6 +23,14 @@ class Program
         ListMatakuliah.ReadJSON();
         Console.WriteLine("");
         
+        //Lia
+        KuliahMahasiswa1302210033 kuliah = new KuliahMahasiswa1302210033();
+        kuliah.ReadJSON();
+        
+        DataMahasiswa_1302213043 dataMahasiswa = new DataMahasiswa_1302213043();
+        dataMahasiswa.ReadJSON();
+
+        KuliahMahasiswa_1302213043 mataKuliah = new KuliahMahasiswa_1302213043();
+        mataKuliah.ReadJSON();
     }
 }
-main

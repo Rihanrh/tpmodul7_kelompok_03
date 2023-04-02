@@ -1,0 +1,32 @@
+{
+	"courses": [
+		{
+			"code": "CRI2C4",
+			"name": "Konstruksi Perangkat Lunak"
+		},
+		{
+			"code": "CRI2E4",
+			"name": "Basis Data"
+		},
+		{
+			"code": "CRI2E5",
+			"name": "Kalkulus"
+		},
+		{
+			"code": "CRI2E6",
+			"name": "Proyek Tingkat II"
+		},
+		{
+			"code": "CRI2E7",
+			"name": "Penjaminan Mutu Perangkat Lunak"
+		},
+		{
+			"code": "CRI2E8",
+			"name": "Pemrograman Berorientasi Objek"
+		},
+		{
+			"code": "CRI2E9",
+			"name": "Pengalaman Pengguna"
+		}
+	]
+}
